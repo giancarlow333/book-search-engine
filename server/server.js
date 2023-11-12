@@ -1,12 +1,14 @@
 const express = require('express');
+const path = require('path');
+
 // Implement the Apollo Server and apply it to the Express server as middleware.
 const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
-const path = require('path');
 // Add authorization middleware
 const { authMiddleware } = require('./utils/auth');
-const db = require('./config/connection');
 //const routes = require('./routes');
+// Set up Mongo db
+const db = require('./config/connection');
 const { typeDefs, resolvers } = require('./schemas');
 
 const app = express();
