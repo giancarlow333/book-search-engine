@@ -45,6 +45,10 @@ Complete the following tasks in each of these back-end files:
 ## Code Sources
 
 * The HTML pages, CSS, and frontent were provided by the UCLA coding bootcamp as "starter code"; see [here](https://github.com/coding-boot-camp/solid-broccoli) for their repo, and the [first commit](https://github.com/giancarlow333/book-search-engine/commit/e7ab613320ef9ca28fb42c31a1a347cc28e30af2) for details.
-* Code from class activity 21.23 was reused in: client: App.jsx, LoginForm.jsx, ...
-* Code from class activity 21.24 was reused in: server.js, schemas/...
-* A special thank you to Fabian De La Pena Montero for help with logging in via GraphQL and resolving an issue with vite.config.js!
+* Code from class activity 21.23 was reused in: [App.jsx](./client/src/App.jsx), [LoginForm.jsx](./client/src/components/LoginForm.jsx), [SignupForm.jsx](./client/src/components/SignupForm.jsx), [mutations.js](./client/src/utils/mutations.js), and [queries.js](./client/src/utils/mutations.js).
+* Code from class activity 21.24 was reused in: [server.js](./server/server.js), [schemas/](./server/schemas/), and [auth.js](./server/utils/auth.js).
+* A special thank you to [Fabian De La Peña Montero](http://fdlpm.com/) for help with logging in via GraphQL and resolving an issue with vite.config.js!
+
+---
+
+(c) 2023 Giancarlo Whitaker
